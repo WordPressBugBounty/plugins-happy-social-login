@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Happy Social Login
  * Description: Enables user authentication through various social media accounts. Login through Google, Facebook, LinkedIn, GitHub and more.
- * Version:     1.4.10
+ * Version:     1.5.0
  * Author:      wpfolk
  * Author URI:  https://wpfolk.com
  * license:     GPL-3.0

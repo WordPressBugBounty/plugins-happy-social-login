@@ -3,7 +3,7 @@
         'name' => 'wpfolk/happy-social-login',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e18949dfee64e2aac476fe306c4a261ad4877f28',
+        'reference' => '5e9c5995d9c2639f47699025614eacfcf2d03c71',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -130,7 +130,7 @@
         'wpfolk/happy-social-login' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e18949dfee64e2aac476fe306c4a261ad4877f28',
+            'reference' => '5e9c5995d9c2639f47699025614eacfcf2d03c71',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

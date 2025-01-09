@@ -36,7 +36,7 @@ class Misc {
         $sanitizer->minify(true);
         $sanitized_svg = $sanitizer->sanitize($dirty_svg);
         if($sanitized_svg !== false){
-            echo wp_kses_post($sanitized_svg); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+            echo $sanitized_svg; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
         }
     }
 
