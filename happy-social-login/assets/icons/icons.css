@@ -1,0 +1,39 @@
+.hslogin-google {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Cpath fill="%234285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"%3E%3C/path%3E%3Cpath fill="%2334A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"%3E%3C/path%3E%3Cpath fill="%23FBBC05" d="M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34A21.991 21.991 0 0 0 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z"%3E%3C/path%3E%3Cpath fill="%23EA4335" d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"%3E%3C/path%3E%3Cpath fill="none" d="M2 2h44v44H2z"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.hslogin-facebook {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22 xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22 xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22 xmlns%3Asvg%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220%200%201365.3333%201365.3333%22 height%3D%2224%22 width%3D%2224%22 xml%3Aspace%3D%22preserve%22 version%3D%221.1%22 xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cmetadata id%3D%22metadata8%22%3E%3Crdf%3ARDF%3E%3Ccc%3AWork rdf%3Aabout%3D%22%22%3E%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%3Cdc%3Atype rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%3E%3C%2Fdc%3Atype%3E%3C%2Fcc%3AWork%3E%3C%2Frdf%3ARDF%3E%3C%2Fmetadata%3E%3Cdefs id%3D%22defs6%22%3E%3C%2Fdefs%3E%3Cg transform%3D%22matrix(1.3333333%2C0%2C0%2C-1.3333333%2C0%2C1365.3333)%22 id%3D%22g10%22%3E%3Cg transform%3D%22scale(0.1)%22 id%3D%22g12%22%3E%3Cpath id%3D%22path14%22 style%3D%22fill%3A%231877f2%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22 d%3D%22m%2010240%2C5120%20c%200%2C2827.7%20-2292.3%2C5120%20-5120%2C5120%20C%202292.3%2C10240%200%2C7947.7%200%2C5120%200%2C2564.46%201872.31%2C446.301%204320%2C62.1992%20V%203640%20H%203020%20v%201480%20h%201300%20v%201128%20c%200%2C1283.2%20764.38%2C1992%201933.9%2C1992%20560.17%2C0%201146.1%2C-100%201146.1%2C-100%20V%206880%20H%206754.38%20C%206118.35%2C6880%205920%2C6485.33%205920%2C6080.43%20V%205120%20H%207340%20L%207113%2C3640%20H%205920%20V%2062.1992%20C%208367.69%2C446.301%2010240%2C2564.46%2010240%2C5120%22%3E%3C%2Fpath%3E%3Cpath id%3D%22path16%22 style%3D%22fill%3A%23ffffff%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22 d%3D%22m%207113%2C3640%20227%2C1480%20H%205920%20v%20960.43%20c%200%2C404.9%20198.35%2C799.57%20834.38%2C799.57%20H%207400%20v%201260%20c%200%2C0%20-585.93%2C100%20-1146.1%2C100%20C%205084.38%2C8240%204320%2C7531.2%204320%2C6248%20V%205120%20H%203020%20V%203640%20H%204320%20V%2062.1992%20C%204580.67%2C21.3008%204847.84%2C0%205120%2C0%20c%20272.16%2C0%20539.33%2C21.3008%20800%2C62.1992%20V%203640%20h%201193%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.hslogin-github {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" fill="%23000000"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.hslogin-linkedin {
+    background-image: url('data:image/svg+xml,%3Csvg id="Group_1282" data-name="Group 1282" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 76.624 65.326" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Cpath id="Path_2525" data-name="Path 2525" d="M1165,274.515a1.2,1.2,0,0,0,1.21-1.269c0-.9-.543-1.33-1.657-1.33h-1.8v4.712h.677v-2.054h.832l.019.025,1.291,2.029h.724l-1.389-2.1Zm-.783-.472h-.785V272.45h.995c.514,0,1.1.084,1.1.757,0,.774-.593.836-1.314.836" transform="translate(-1092.136 -213.406)" fill="%230a66c2"%3E%3C/path%3E%3Cpath id="Path_2520" data-name="Path 2520" d="M958.98,112.559h-9.6V97.525c0-3.585-.064-8.2-4.993-8.2-5,0-5.765,3.906-5.765,7.939v15.294h-9.6V81.642h9.216v4.225h.129a10.1,10.1,0,0,1,9.093-4.994c9.73,0,11.524,6.4,11.524,14.726ZM918.19,77.416a5.571,5.571,0,1,1,5.57-5.572,5.571,5.571,0,0,1-5.57,5.572m4.8,35.143h-9.61V81.642h9.61Zm40.776-55.2h-55.21a4.728,4.728,0,0,0-4.781,4.67v55.439a4.731,4.731,0,0,0,4.781,4.675h55.21a4.741,4.741,0,0,0,4.8-4.675V62.025a4.738,4.738,0,0,0-4.8-4.67" transform="translate(-903.776 -57.355)" fill="%230a66c2"%3E%3C/path%3E%3Cpath id="Path_2526" data-name="Path 2526" d="M1156.525,264.22a4.418,4.418,0,1,0,.085,0h-.085m0,8.33a3.874,3.874,0,1,1,3.809-3.938c0,.022,0,.043,0,.065a3.791,3.791,0,0,1-3.708,3.871h-.1" transform="translate(-1084.362 -207.809)" fill="%230a66c2"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.hslogin-apple {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 width%3D%222038%22 height%3D%222500%22 viewBox%3D%220 0 496.255 608.728%22%3E%3Cpath d%3D%22M273.81 52.973C313.806.257 369.41 0 369.41 0s8.271 49.562-31.463 97.306c-42.426 50.98-90.649 42.638-90.649 42.638s-9.055-40.094 26.512-86.971zM252.385 174.662c20.576 0 58.764-28.284 108.471-28.284 85.562 0 119.222 60.883 119.222 60.883s-65.833 33.659-65.833 115.331c0 92.133 82.01 123.885 82.01 123.885s-57.328 161.357-134.762 161.357c-35.565 0-63.215-23.967-100.688-23.967-38.188 0-76.084 24.861-100.766 24.861C89.33 608.73 0 455.666 0 332.628c0-121.052 75.612-184.554 146.533-184.554 46.105 0 81.883 26.588 105.852 26.588z%22 fill%3D%22%23999%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}

@@ -1,0 +1,40 @@
+== Changelog ==
+
+= 1.4.10 - 2025-01-08 =
+* Release free version to Wordpress
+
+= 1.4.9 - 2024-12-12 =
+* Updated Freemius SDK, php/jwt
+* Fix svg sanitization
+
+= 1.4.8 - 2024-11-26 =
+* Added nonce verification to is_being_deactivate and fix debug.php
+* Fix readme to include 3rd party services privacy policy
+* Used Freemius uninstaller
+* Fix translation issue
+* Fix inline script sanitization
+* Fix svg sanitization
+
+= 1.4.7 - 2024-11-04 =
+* Fixed: Uploaded SVG on Elementor Social Login Widget not working
+* Fixed: Rewrite rules get cleared on deactivation of other plugins resulting /sso/google to 404 not found
+* Fixed: Z-index issue on social media logos
+* New: Added a id attribute to each button so that users can target a particular provider and change its style
+* Fixed: Responsive control issue
+
+= 1.4.6 - 2024-11-03 =
+* Fixed Apple Logo missing from Elementor's Social Login widget
+* Fixed Google Logo missing from Elementor's Social Login widget
+* Added responsiveness to Elementor's social login widget
+* Fixed Facebook provider: Renamed client id to app id and app secret
+
+= 1.4.5 - 2024-11-02 =
+* Added Signin with Apple
+
+= 1.4.4 - 2024-09-05 =
+* Fixed Wordpress Plugin Code standard issue
+* Compatibilty tested with latest veriosn of Wordpress, Elementor
+
+= 1.4.3 - 2024-05-16 =
+* Added Facebook, Google, Github, LInkedin Login option
+* Added support for Elementor

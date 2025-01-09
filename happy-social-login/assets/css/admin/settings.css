@@ -1,0 +1,13 @@
+.no-border>div{
+    border: none !important;
+}
+.no-fieldset-border > .csf-fieldset > div{
+    border: none !important;
+    box-shadow: none !important;
+}
+.width-30 .csf-title{
+    width: 30%;
+}
+.width-30 .csf-fieldset{
+    width: calc(70% - 20px);
+}

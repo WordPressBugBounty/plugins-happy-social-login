@@ -1,0 +1,72 @@
+{
+    "name": "wpfolk/happy-social-login",
+    "description": "It enables seamless user authentication through various social networks directly within your Elementor built-in pages. Login via Google, Facebook, Linkedin, Whatsapp and many more.",
+    "authors": [
+        {
+            "name": "wpfolk",
+            "email": "contact@wpfolk.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "codestar/codestar-framework",
+                "version": "dev-master",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/Codestar/codestar-framework/archive/master.zip"
+                },
+                "source": {
+                    "url": "https://github.com/Codestar/codestar-framework.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "classmap": ["classes/"]
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HappySocialLogin\\": "src/"
+        }
+    },
+    "require": {
+        "hybridauth/hybridauth": "^3.11",
+        "codestar/codestar-framework": "dev-master",
+        "composer/installers": "^2.3",
+        "fakerphp/faker": "^1.24",
+        "adriengras/pkce-php": "^1.0",
+        "freemius/wordpress-sdk": "^2.10",
+        "firebase/php-jwt": "^6.10",
+        "phpseclib/phpseclib": "^3.0",
+        "enshrined/svg-sanitize": "^0.20.0"
+    },
+   "scripts": {
+        "post-install-cmd": [
+            "rm -rf vendor/hybridauth/hybridauth/tests/Adapter",
+            "rm -rf vendor/hybridauth/hybridauth/tests/HttpClient",
+            "rm -rf vendor/hybridauth/hybridauth/tests/Logger",
+            "rm -rf vendor/hybridauth/hybridauth/tests/Provider",
+            "rm -f vendor/codestar/codestar-framework/views/welcome.php",
+            "sed -i '' 's/Font Awesome 5 Pro/Font Awesome 5 Free/g' vendor/codestar/codestar-framework/assets/css/style.min.css || sed -i 's/Font Awesome 5 Pro/Font Awesome 5 Free/g' vendor/codestar/codestar-framework/assets/css/style.min.css",
+            "rm -f vendor/paragonie/random_compat/build-phar.sh"
+        ],
+        "post-update-cmd": [
+            "rm -rf vendor/hybridauth/hybridauth/tests/Adapter",
+            "rm -rf vendor/hybridauth/hybridauth/tests/HttpClient",
+            "rm -rf vendor/hybridauth/hybridauth/tests/Logger",
+            "rm -rf vendor/hybridauth/hybridauth/tests/Provider",
+            "rm -f vendor/codestar/codestar-framework/views/welcome.php",
+            "sed -i '' 's/Font Awesome 5 Pro/Font Awesome 5 Free/g' vendor/codestar/codestar-framework/assets/css/style.min.css || sed -i 's/Font Awesome 5 Pro/Font Awesome 5 Free/g' vendor/codestar/codestar-framework/assets/css/style.min.css",
+            "rm -f vendor/paragonie/random_compat/build-phar.sh"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.hslogin-buttons-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*Buttons Gap*/
+}
+
+.hslogin-button {
+    display:flex;
+    background-color: #fefefe; /*Button Background Color*/
+    align-items: center;
+    border-radius: 10px; /*Button Border Radius*/
+    width: 320px; /*Button Width*/
+    height: 50px; /*Button Height*/
+    border: 1px solid #00000021;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hslogin-button:hover {
+    box-shadow: 1px 1px 1px #cfd1d1;
+}
+
+.hslogin-icon-wrapper{
+    background-color: transparent; /*Icon Background Color*/
+    display: flex;
+    width: 20%; /*Icon Width*/
+    height: 100%;
+    align-items: center;
+    justify-content: center; /*Align Icon*/
+    /* z-index: 999; */
+}
+
+.hslogin-icon-wrapper > *{
+    font-size: 24px; /*Icon Size*/
+    width: 24px;
+    height: 24px;
+}
+
+.hslogin-label-wrapper{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start; /*Align Text*/
+}
+
+.hslogin-label{
+    margin-left: 10px; /*Icon & label Spacing*/
+}
+
+/*----OR---- element */
+.hslogin-line-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;padding: 0 3px;
+}
+
+.hslogin-line{
+    background-color:#00000030;
+    height:1px;width:100%;
+}
+
+.hslogin-or{
+    padding:5px;
+}
